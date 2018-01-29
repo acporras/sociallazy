@@ -1,0 +1,28 @@
+{
+  "name": "sociallazy-vue",
+  "version": "1.0.0",
+  "description": "Sociallazy social network for community",
+  "author": "Alex javier caicedo porras <acaicedo@sociallazy.com>",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "express-handlebars": "^3.0.0",
+    "jwt-simple": "^0.5.1",
+    "method-override": "^2.3.10",
+    "moment": "^2.20.1",
+    "mongoose": "^5.0.2",
+    "path": "^0.12.7",
+    "pug": "^2.0.0-rc.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.0"
+  }
+}
