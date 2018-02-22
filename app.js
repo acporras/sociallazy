@@ -18,6 +18,7 @@ app.set('view engine', 'pug');
 app.use(methodOverride());
 app.use(cors());
 app.use(route);
-app.use(express.static('public'));
+//app.use(express.static('/static'));
+app.use('/static', express.static(__dirname + '/public'));
 
 module.exports = app
